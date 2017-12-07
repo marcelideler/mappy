@@ -34,7 +34,9 @@
 
       function showInfo(data) {
         // the column headers of the info you want in your popup
-        var optionsJSON = ["placename", "photo-url"]
+        // mine are School	City | Country
+        // old: var optionsJSON = ["placename", "photo-url"]
+        var optionsJSON = ["School", "City | Country"]
         // an html template for your popup
         var template = "<ul><li><a href='{{photo-url}}' target='_blank'>"
                      + "<img src='{{photo-url}}'></a></li>"
